@@ -1,39 +1,27 @@
-""" Sabelo Mbatha's Task 0.9 """
+def vowel_extractor():
 
-def VowelExtractor():
-
-    word = input("Enter a string: ")
+    word1 = input("Enter a string: ")
 
     # Spliting the word
     vowels = []
+    word = word1.lower()
     newWord = list(word)
 
     #Extracting the vowels
     for alphabet in newWord:
-        if alphabet == "a":
+        if alphabet in "a" and "a" not in vowels:
             vowels.append("a")
-        elif alphabet == "A":
-            vowels.append("A")
-        elif alphabet == "e":
+        elif alphabet in "e" and "e" not in vowels:
             vowels.append("e")
-        elif alphabet == "E":
-            vowels.append("E")
-        elif alphabet == "i":
+        elif alphabet in "i" and "i" not in vowels:
             vowels.append("i")
-        elif alphabet == "I":
-            vowels.append("I")
-        elif alphabet == "o":
+        elif alphabet in "o" and "o" not in vowels:
             vowels.append("o")
-        elif alphabet == "O":
-            vowels.append("O")
-        elif alphabet == "u":
+        elif alphabet in "u" and "u" not in vowels:
             vowels.append("u")
-        elif alphabet == "U":
-            vowels.append("U")
         else:
             None
 
-    print("""
-The string has the following Vowels: {}""".format(vowels))
+    print("Vowels: {}".format(vowels))
 
-VowelExtractor()
+vowel_extractor()
