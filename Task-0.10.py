@@ -1,9 +1,9 @@
-""" Sabelo Mbatha's Task 0.10 """
+"""
+Definitions of "common", show that common does not imply the same for all charectoristics.
+Hence for this code, I converted all the strings to lower cases
+"""
 
-# Definitions of "common", show that common does not imply the same for all charectoristics.
-# Hence for this code, I converted all the strings to lower cases
-
-def commonCharecters():
+def common_charecters():
 
     first_String= (input("Enter the first string: ")).lower()
     second_String= (input("Enter the second string: ")).lower()
@@ -16,7 +16,7 @@ def commonCharecters():
         else:
             None
 
-    print("""
-Common character(s) are: {}""".format(common))
+    print("Common letters: {}".format(common))
 
-commonCharecters()
+common_charecters()
+
