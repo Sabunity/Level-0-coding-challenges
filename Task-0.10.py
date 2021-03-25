@@ -16,5 +16,5 @@ def common_charecters(string1, string2):
             None
 
     print("Common letters: {}".format(common))
-
+ 
 common_charecters("house", "computers")

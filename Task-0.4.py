@@ -5,6 +5,5 @@ def odd_or_even():
 
     else:
         print("odd")
-
-
+        
 odd_or_even()
