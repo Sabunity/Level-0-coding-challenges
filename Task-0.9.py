@@ -1,6 +1,6 @@
 def vowel_extractor():
 
-    word1 = input("Enter a string: ")
+    word1 = input()
 
     # Spliting the word
     vowels = []
