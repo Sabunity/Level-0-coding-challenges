@@ -1,9 +1,7 @@
-""" Sabelo Mbatha's Task 0.6 """
+def maximum(num1, num2, num3, num4):
 
-
-def maximum(n1, n2, n3, n4):
-
-    num = max(n1, n2, n3, n4)
-    print("The maximum number is {}".format(num))
+    num_list = [num1, num2, num3, num4]
+    num_list.sort()
+    return num_list[-1]
 
 maximum(1,22,3,2)
