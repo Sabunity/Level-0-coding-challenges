@@ -1,5 +1,3 @@
-""" Sabelo Mbatha's Task 0.1 """
-
 x = 0
 y = 1
 print(x)
